@@ -1,0 +1,55 @@
+{
+  "_from": "vnode2canvas",
+  "_id": "vnode2canvas@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-rZsUEBYxUg4KvhCNgFnC7VXDvqgYrJF7cg+G6HcV3DNi8o0esuw7UOuXvVfAOfdpBzzGC6COP9Ka+s9sfYyRfg==",
+  "_location": "/vnode2canvas",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vnode2canvas",
+    "name": "vnode2canvas",
+    "escapedName": "vnode2canvas",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vnode2canvas/-/vnode2canvas-0.2.0.tgz",
+  "_shasum": "f6b76fc93dbd12da59bcae6e44a68bf95447824c",
+  "_spec": "vnode2canvas",
+  "_where": "/Users/mj/repo/vuetest",
+  "author": {
+    "name": "muwoo"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "css": "^2.2.3",
+    "css-layout": "^1.1.1",
+    "scroller": "0.0.3"
+  },
+  "deprecated": false,
+  "description": "Rendering virtual DOM into canvas based on Vue plugin",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "vue": "^2.5.16",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "license": "MIT",
+  "main": "dist/main.min.js",
+  "name": "vnode2canvas",
+  "scripts": {
+    "build": "webpack --mode production --output ./dist/main.min.js",
+    "dev": "webpack --mode development --watch  --output ./dev/main.js"
+  },
+  "version": "0.2.0"
+}

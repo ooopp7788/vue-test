@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>vue-spa</title>
+    <!-- <script>
+      window.onerror = function (errorMsg, url, lineNumber, column, errorObj) {
+        alert('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber
+          + ' Column: ' + column + ' StackTrace: ' +  errorObj);
+      }
+    </script>
+    <script src="https://s0.meituan.net/bs/qcs/qcs.fe.pc/@/static/global.ecad6502.js"></script> -->
+  </head>
+  <script>
+    const ratio = window.devicePixelRatio || 2;
+    const ele = document.querySelector('html');
+    window.onload = () => {
+      ele.style.fontSize = window.innerWidth / 7.5 + 'px';
+    }
+  </script>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
